@@ -12,6 +12,7 @@ shapesize(3.2, 3.5)
 shift = [10, 0, 10, 28, 10, 0, 10, 28, 10]
 
 tracer(False)
+#tracer(10,10)
 
 for i in range(9):
     goto(-365 + shift[i], 267 - 66 * i)
