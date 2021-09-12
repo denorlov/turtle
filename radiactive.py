@@ -1,18 +1,5 @@
 from turtle import *
 
-def square(length):
-    for i in range(4):
-        forward(length)
-        left(90)
-
-def sector(radius, angle):
-    forward(radius)
-    left(90)
-    circle(radius, angle)
-    left(90)
-    forward(radius)
-    left(180-angle)
-
 def move(x, y):
     up()
     forward(x)
@@ -33,7 +20,10 @@ color(outlinecol)
 move(-(side/2), -(side/2))
 
 begin_fill()
-square(side)
+# square
+for i in range(4):
+    forward(side)
+    left(90)
 color(fillcol)
 end_fill()
 
@@ -43,9 +33,19 @@ move((side/2), (side/2))
 color(outlinecol)
 right(90 + angle/2)
 
+sector_radius = 160
+sector_angle = 60
+
 for i in range(3):
     begin_fill()
-    sector(160, angle)
+    #sector
+    forward(sector_radius)
+    left(90)
+    circle(sector_radius, sector_angle)
+    left(90)
+    forward(sector_radius)
+    left(180 - sector_angle)
+
     left(120)
     color(outlinecol)
     end_fill()
