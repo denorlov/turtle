@@ -63,9 +63,4 @@ circle(radius2)
 color(outlinecol)
 end_fill()
 
-up()
-left(90)
-forward(radius2)
-width(1)
-
 mainloop()
