@@ -3,7 +3,7 @@ from turtle import Turtle, Screen
 import turtle
 
 screen = turtle.Screen()
-screen.bgpic('./images/froggy_forest.gif')
+screen.bgpic('../images/froggy_forest.gif')
 
 turtle = Turtle()
 

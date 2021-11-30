@@ -1,6 +1,6 @@
 import turtle
 import random
-turtle.speed(0)
+#turtle.speed(0)
 turtle.setup(800,800)
 turtle.tracer(1000,0)
 turtle.title('Vortex of Filled Squares - PythonTurtle.Academy')
