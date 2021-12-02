@@ -1,10 +1,10 @@
 import turtle
 
-times = 8
+times = 100
 angel = 360 / times
-steps = 100
+steps = 10
 for i in range(times):
     turtle.forward(steps)
     turtle.left(angel)
 
-turtle.Screen().exitonclick()
+screen.exitonclick()
