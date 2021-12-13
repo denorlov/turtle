@@ -1,0 +1,23 @@
+import turtle
+turtle.speed(1)
+
+turtle.left(45)
+turtle.forward(100)
+turtle.left(135)
+turtle.forward(50)
+turtle.right(45)
+turtle.forward(30)
+turtle.right(45)
+turtle.forward(50)
+turtle.left(135)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100.9)
+turtle.left(135.7)
+turtle.forward(141)
+turtle.left(134.6)
+turtle.forward(100)
+turtle.left(135.4)
+turtle.forward(142)
+
+turtle.exitonclick()
